@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escasez de agua en Los Cabos B.C.S</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.3.0/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Flowbite JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.3.0/dist/flowbite.min.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Flowbite (incluye lógica del carrusel) -->
+    <script src="https://unpkg.com/flowbite@2.2.1/dist/flowbite.min.js"></script>
+</head>
+<body class="bg-black">
+    
+    <!-- navbar -->
+    <nav class="bg-white border-gray-200 dark:bg-slate-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./img/logo.png" class="h-8" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Los Cabos sin agua</span>
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+                <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Inicio</a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contacto</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- informacion -->
+    
+    <p class="m-3 mt-10 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:me-3 first-letter:float-start w-full max-w-2xl mx-auto">
+        Los Cabos, ubicado en el extremo sur de la península de Baja California, <strong class="font-normal text-gray-900 dark:text-white">es uno de los destinos turísticos más importantes de México.</strong> Sin embargo, detrás del auge turístico y desarrollo urbano, enfrenta una problemática urgente: la escasez de agua. Esta crisis afecta no solo a las comunidades locales, sino también al medio ambiente, la economía y el futuro del desarrollo regional.
+    </p>
+    <p class="m-3 text-gray-500 dark:text-gray-400 w-full max-w-2xl mx-auto">
+        Los Cabos se compone de dos ciudades principales: San José del Cabo y Cabo San Lucas. El clima es árido, con temperaturas altas durante gran parte del año y <strong class="font-light text-gray-900 dark:text-white">precipitaciones escasas </strong>y concentradas, en su mayoría durante la temporada de huracanes.
+    </p>
+    <p class="m-3 text-gray-500 dark:text-gray-400 w-full max-w-2xl mx-auto">
+        El crecimiento acelerado ha aumentado la <strong class="font-light text-gray-900 dark:text-white">demanda de agua. </strong> Los desarrollos residenciales, hoteles de lujo y campos de golf consumen miles de metros cúbicos de agua al mes. Muchos no contemplan sistemas de reúso o captación.
+    </p>
+
+
+    <!-- carusel -->
+    <!-- Carousel container -->
+    <div id="default-carousel" class="relative w-full max-w-2xl mx-auto" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-96 overflow-hidden md:h-96 rounded-xl">
+        <!-- Slide 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+            <img src="./img/img5.avif" class="absolute block w-full " alt="Slide 1">
+        </div>
+        <!-- Slide 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/img6.avif" class="absolute block w-full" alt="Slide 2">
+        </div>
+        <!-- Slide 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/img7.avif" class="absolute block w-full " alt="Slide 3">
+        </div>
+        <!-- Slide 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/img8.avif" class="absolute block w-full " alt="Slide 4">
+        </div>
+        <!-- Slide 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="./img/img9.avif" class="absolute block w-full " alt="Slide 5">
+        </div>
+        <!-- Slide 6 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item> 
+            <img src="./img/img10.avif" class="absolute block w-full " alt="Slide 6">
+        </div>
+    </div>
+
+    <!-- informacion -->
+    <p class="m-3 text-gray-500 dark:text-gray-400">
+        <strong class="font-normal text-gray-900 dark:text-white">La escasez de agua en Los Cabos </strong> no es un fenómeno reciente. Desde hace décadas se registran problemas de abasto, sobre todo durante las temporadas secas o en años de poca lluvia. Sin embargo, el desarrollo turístico masivo desde los años 90 y el crecimiento acelerado de la población han agravado exponencialmente esta crisis.   
+    </p>
+    <p class="m-3 text-gray-500 dark:text-gray-400">
+        <strong class="font-semibold text-gray-900 dark:text-white">Algunos hitos importantes:</strong><br>
+        <strong class="font-normal text-gray-900 dark:text-white">Décadas de 1980-90: </strong>Inicio del boom turístico; la infraestructura hídrica comienza a quedar rezagada. <br>
+
+        <strong class="font-normal text-gray-900 dark:text-white">2000-2010: </strong>Se quintuplica la población flotante. Aumentan las perforaciones de pozos profundos. <br>
+
+        <strong class="font-normal text-gray-900 dark:text-white">2010 en adelante: </strong> Se supera la capacidad del acuífero de San José del Cabo. Se comienza a hablar de desalinización como medida urgente. <br>
+
+        <strong class="font-normal text-gray-900 dark:text-white">2020-2024: </strong> identifican zonas de alto riesgo hídrico. Algunas colonias reciben agua solo 1 o 2 veces por semana.
+    </p>
+
+    <!-- galeria -->
+    <div class="grid grid-cols-2 gap-2">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="img/img11.webp" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./img/img12.webp" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="./img/img13.webp" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="img/img14.webp" alt="">
+        </div>
+    </div>
+
+    <!-- mas informacion -->
+    <p class="m-3 text-gray-500 dark:text-gray-400">
+        <strong class="font-semibold text-gray-900 dark:text-white">Impacto en el desarrollo regional </strong> <br>
+        <strong class="font-normal text-gray-900 dark:text-white">Limitación al crecimiento urbano </strong><br>
+        Los desarrollos habitacionales y turísticos en trámite muchas veces no pueden ejecutarse por falta de permisos de agua. Esto detiene inversiones millonarias. <br>
+
+        <strong class="font-normal text-gray-900 dark:text-white">Riesgos sociales </strong> <br>
+        El agua se ha vuelto una causa de conflictos sociales. Manifestaciones, bloqueos y denuncias por desabasto o abuso de concesiones privadas son cada vez más comunes. <br>
+
+        <strong class="font-normal text-gray-900 dark:text-white">Sector turismo en riesgo </strong> <br>
+        El turismo, pilar económico de Los Cabos, depende del agua para funcionar. Sin agua, no hay operación de hoteles, limpieza, piscinas, ni paisajismo. Si no se resuelve la crisis, la imagen del destino puede verse seriamente afectada. <br>
+    </p>
+    
+    <!-- calculadora -->
+    <h2 class=" m-3 font-semibold  text-gray-500 dark:text-gray-400 mr-auto">Calcula tu consumo de agua</h2>
+
+    <form id="formAgua" class=" m-3 text-gray-500 dark:text-gray-400 ">
+        <label class="">Duchas al día (promedio de 8 min):
+        <input type="number" id="duchas" value="1" min="0" class="bg-transparent text-gray-500 rounded-md text-xs">
+        </label> <br>
+        <label>Veces que usas el inodoro:
+        <input type="number" id="inodoro" value="5" min="0" class="bg-transparent text-gray-500 rounded-md text-xs">
+        </label> <br> 
+        <label>Lavadoras por semana:
+        <input type="number" id="lavadora" value="3" min="0" class="bg-transparent text-gray-500 rounded-md text-xs">
+        </label> <br>
+        <label>Litros usados en cocina / lavado de platos (diario):
+        <input type="number" id="cocina" value="20" min="0" class="bg-transparent text-gray-500 rounded-md text-xs">
+        </label> <br>
+        <label>Litros usados en riego de plantas / jardín (diario):
+        <input type="number" id="riego" value="0" min="0" class="bg-transparent text-gray-500 rounded-md text-xs">
+        </label> <br>
+        <button type="button" onclick="calcularConsumo()" class="text-gray-500 rounded-md text-xl">Calcular</button>
+    </form>
+
+    <div class="resultado" id="resultado">
+        <script>
+            function calcularConsumo() {
+            const duchaLitros = 16 * parseInt(document.getElementById("duchas").value); // 2 L/min * 8 min
+            const inodoroLitros = 6 * parseInt(document.getElementById("inodoro").value); // descarga moderna promedio
+            const lavadoraLitros = (80 * parseInt(document.getElementById("lavadora").value)) / 7; // promedio diario
+            const cocinaLitros = parseInt(document.getElementById("cocina").value);
+            const riegoLitros = parseInt(document.getElementById("riego").value);
+
+            const totalDiario = duchaLitros + inodoroLitros + lavadoraLitros + cocinaLitros + riegoLitros;
+            const totalMensual = totalDiario * 30;
+
+            const resultado = `
+                <div style="color: white; margin: 15px;">
+                    Tu consumo estimado de agua es:<br>
+                    <strong>${totalDiario.toFixed(1)} litros diarios</strong><br>
+                    <strong>${totalMensual.toFixed(0)} litros mensuales</strong><br><br>
+                    ¿Sabías que el promedio sustentable es menor a 150 litros por persona al día?
+                </div>
+            `;
+
+            document.getElementById("resultado").innerHTML = resultado;
+            }
+        </script>
+    </div>
+    <!-- footer -->
+    <footer class="bg-white rounded-lg shadow-sm m-4 mt-10 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">UABCS</a>. Todos los derechos reservados.
+        </span>
+       
+        </div>
+    </footer>
+
+
+
+
+    
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+
+</html>
